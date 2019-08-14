@@ -5,41 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>first-exercice-contact</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <ul>
-            <li>
-                <a href="./index.html">Home</a>
-            </li>
-            <li>
-                <a href="./course.html">Courses</a>
-            </li>
-            <li>
-                <a href="./contact.html">Contact</a>
-            </li>
+    <header class="header-nav">
+        <img class="logo" src="https://gomycode.tn/images/section2GMCLogo.png" alt="logo">
+        <ul class="navbar">
+            <li> <a href="./index.html" class="item-menu">Home</a></li>
+            <li><a href="./course.html" class="item-menu">Courses</a> </li>
+            <li><a href="./contact.html" class="item-menu">Contact</a> </li>
         </ul>
     </header>
+    </header>
     <main>
-        <form>
-            <label>Name:</label>
-            <input type="text" placeholder="Your name">
-            <br>
-            <label>Track:</label>
-            <select>
+            <div class="image-home">
+                    <h1 class="titre-courses">CONTACT</h1>
+                </div>
+        <form class="formulaire">
+
+            <label class="forme" >Name </label>
+            <input class="rad" type="text" placeholder="Your name" >
+            <label class="forme">Track</label>
+            <select class="rad">
                 <option>WEB</option>
                 <option>AI</option>
                 <option>GAME</option>
             </select>
-            <label>Email adress:</label>
-            <input type="text" placeholder="name@example.com">
-            <br>
-            <label>Phone number:</label>
-            <input type="number" placeholder="Your phone number">
-            <br>
-            <input type="submit" value="submit form">
+            <label class="forme">Email adress</label>
+            <input class="rad" type="text" placeholder="name@example.com" >
+            <label class="forme">Phone number</label>
+            <input  class="rad" type="number" placeholder="Your phone number" >
+       
+            <input class="bouton" type="submit" value="submit" >
+        
+
+
         </form>
     </main>
 
